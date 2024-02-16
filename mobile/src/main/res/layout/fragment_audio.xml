@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EACE88"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/totalAudios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_audio"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/audioRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_icon"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
